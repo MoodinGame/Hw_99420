@@ -120,6 +120,7 @@ public class Shop {
 		shop.buy(c1, p2, 2);
 		shop.buy(c2, p1, 1);
 		shop.buy(c2, p3, 1);
+		shop.buy(c2, p2, 3);
 
 		System.out.println(shop.showTransaction());
 
